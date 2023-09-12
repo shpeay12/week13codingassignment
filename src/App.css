@@ -1,0 +1,51 @@
+/*Class selectors used to modify HTML elements*/
+
+/*Styles the whole webpage, centering the text and giving it a background color*/
+.App {
+  text-align: center;
+  background: rgb(72, 105, 152);
+}
+
+/*Styles the content in the login form div*/
+.content {
+  display: flex; /*Flex box used*/
+  justify-content: center;
+  align-items: center;
+}
+
+/*Styles the login form with a border, padding, bottom margin, flex-direction, etc.*/
+.login-form {
+  border: 8px dotted gold;
+  padding: 90px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 500px;
+}
+
+/*Styles the text boxes and submit button to give them space*/
+.login-form input {
+  margin: 8px;
+}
+
+/*Styles the color of the submit button*/
+.submit-button {
+  background: gold;
+}
+
+/*Styles the navigation bar with a flex box, centering the content, background-color, etc.*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: orangered;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+/*Styles the color of the text and the padding.*/
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
